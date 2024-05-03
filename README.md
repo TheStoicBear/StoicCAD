@@ -10,6 +10,28 @@ Hello everyone,
 
 We are excited to announce the alpha release of StoicCAD, our dedicated Computer Aided Dispatch (CAD) system for the FiveM community. This release comes only 7 days into development, showcasing our commitment to rapidly delivering a robust tool designed to enhance the role-playing experience for law enforcement and dispatch services.
 
+
+
+
+
+## Changelog
+
+Below is the progression status of the StoicCAD development stages:
+
+| Development Stage                | Status   | Completion Date |
+|----------------------------------|----------|-----------------|
+| **Projects Made**                | DONE     | 05/02/2024      |
+| **Projects Nearly Refined**      | ONGOING  | 05/03/2024      |
+| **Projects Configuration Guide** | NOT DONE |                 |
+| **Projects Details Guide**       | NOT DONE |                 |
+| **Projects Nearly Released**     | NOT DONE |                 |
+| **Projects Release**             | NOT DONE |                 |
+
+
+
+
+
+
 **Current Features Include:**
 - **General Dashboard** ✔️: A centralized hub for accessing all critical functions and modules.
 - **PD Dashboard** ✔️: Customized for police departments with features tailored to law enforcement operations.
