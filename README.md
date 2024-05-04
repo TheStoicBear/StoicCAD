@@ -4,6 +4,7 @@
 
 ![logo](https://github.com/TheStoicBear/StoicCAD/assets/112611821/fa4e54af-834a-4589-8b64-c8e2d0e0435a)
 
+![image](https://github.com/TheStoicBear/StoicCAD/assets/112611821/6ba5a894-36f3-4ae6-8fe8-db41199d0c1b)
 
 
 Hello everyone,
@@ -21,10 +22,10 @@ Below is the progression status of the StoicCAD development stages:
 | Development Stage                | Status   | Completion Date |
 |----------------------------------|----------|-----------------|
 | **Projects Made**                | DONE     | 05/02/2024      |
-| **Projects Nearly Refined**      | ONGOING  | 05/03/2024      |
-| **Projects Configuration Guide** | NOT DONE |                 |
-| **Projects Details Guide**       | NOT DONE |                 |
-| **Projects Nearly Released**     | NOT DONE |                 |
+| **Projects Nearly Refined**      | DONE  | 05/03/2024      |
+| **Projects Configuration Guide** | DONE |   05/04/2024              |
+| **Projects Details Guide**       | DONE |      05/04/2024           |
+| **Projects Nearly Released**     | DONE |      05/04/2024           |
 | **Projects Release**             | NOT DONE |                 |
 
 
@@ -59,3 +60,19 @@ Thank you for your support and enthusiasm. We look forward to evolving StoicCAD 
 
 Best regards,
 [Your Development Team]
+
+
+
+
+
+
+# [Configuration](https://stoiccad.com/docs/configuration.html)
+![image](https://github.com/TheStoicBear/StoicCAD/assets/112611821/1b9057a1-a57c-48fd-8517-c60b39f975dd)
+
+
+
+![SUPPORT (3)](https://github.com/TheStoicBear/StoicCAD/assets/112611821/25d0617f-51c1-4b80-a19f-a7bf3f44a4c9)
+- https://stoiccad.com/
+- https://stoiccad.com/docs/
+- https://mdt.stoiccad.com/
+
