@@ -25,7 +25,7 @@ Below is the progression status of the StoicCAD development stages:
 | **Projects Configuration Guide** | DONE |   05/04/2024              |
 | **Projects Details Guide**       | DONE |      05/04/2024           |
 | **Projects Nearly Released**     | DONE |      05/04/2024           |
-| **Projects Release**             | NOT DONE |                 |
+| **Projects Release**             | DONE |        05/04/2024          |
 
 
 
@@ -41,10 +41,8 @@ Below is the progression status of the StoicCAD development stages:
 - **Integrated 911 Scripts** ✔️: Converts all in-game phones to function as part of a unified 911 dispatch system.
 - **MDT Script** ✔️: A mobile data terminal for department players, allowing access to the CAD directly in-game.
 - **Ticket Script** ✔️: Facilitates the issuance of tickets to players by department members, integrating seamlessly with the CAD system.
-
-**In Development:**
-- **Admin Dashboard** 🚧: Will allow admins to manage player interactions and the database effectively.
-- **Supervisor Dashboard** 🚧: Provides supervisors with enhanced tools for oversight and management of department activities.
+- **Admin Dashboard** ✔️: Will allow admins to manage player interactions and the database effectively.
+- **Supervisor Dashboard** ✔️: Provides supervisors with enhanced tools for oversight and management of department activities.
 
 ### Customizable Department Dashboards
 One of the standout features of StoicCAD is its highly customizable department dashboards. Each department can tailor its dashboard to reflect its unique style and operational needs. This level of customization extends to themes, layout, and the specific tools available on the dashboard, ensuring that each department’s interface aligns perfectly with its role-play dynamics.
@@ -58,7 +56,7 @@ As this is just the alpha release and we are only seven days into development, w
 Thank you for your support and enthusiasm. We look forward to evolving StoicCAD together with our community. Stay tuned for more updates and enhancements!
 
 Best regards,
-[Your Development Team]
+[Stoic]
 
 
 
