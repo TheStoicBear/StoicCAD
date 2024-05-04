@@ -1,7 +1,3 @@
-### 🚨 Announcement: Alpha Release of StoicCAD 🚨
-
-
-
 <p align="center">
   <img src="https://github.com/TheStoicBear/StoicCAD/assets/112611821/fa4e54af-834a-4589-8b64-c8e2d0e0435a" alt="logo">
 </p>
