@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoicCAD | Police Dispatch System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script defer src="config/config.js"></script> <!-- Include the config script with defer to ensure it loads after the HTML is parsed -->
+</head>
+<body class="bg-gray-800 text-white font-sans">
+
+    <!-- Navigation Bar -->
+    <header class="px-5 py-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <img src="" alt="Police Logo" class="h-10" id="logo">
+            <nav>
+                <button id="loginButton" class="text-white font-bold py-2 px-4 rounded transition duration-300">Login</button>
+                <button id="toggleInfoButton" class="text-white font-bold py-2 px-4 rounded transition duration-300">Toggle Info</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <div class="text-center p-8 border border-gray-700 rounded-lg bg-gray-900 shadow-lg mt-6 mx-auto max-w-4xl">
+        <h1 class="text-3xl mb-2 font-bold uppercase tracking-widest" id="mainTitle"></h1>
+        <i class="fa-4x mb-3" id="mainIcon"></i>
+        <p class="mb-4 text-lg font-light" id="descriptionText"></p>
+        <div class="flex justify-center space-x-4">
+            <button id="cadLoginButton" class="text-white font-bold py-2 px-4 rounded transition duration-300">Login to CAD</button>
+            <button id="homeButton" class="text-white font-bold py-2 px-4 rounded transition duration-300">Return to Homepage</button>
+        </div>
+    </div>
+
+	<!-- Info Cards Section -->
+	<div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
+		<div class="p-6 max-w-sm mx-auto bg-blue-800 rounded-xl shadow-md space-y-2 hidden" id="infoCard1">
+			<div class="text-lg font-medium"></div>
+		</div>
+		<div class="p-6 max-w-sm mx-auto bg-blue-800 rounded-xl shadow-md space-y-2 hidden" id="infoCard2">
+			<div class="text-lg font-medium"></div>
+		</div>
+		<div class="p-6 max-w-sm mx-auto bg-blue-800 rounded-xl shadow-md space-y-2 hidden" id="infoCard3">
+			<div class="text-lg font-medium"></div>
+		</div>
+	</div>
+
+
+</body>
+</html>

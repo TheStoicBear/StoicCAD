@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f400;  /* Ensuring transparency with an ARGB color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    background: rgb(29, 29, 29);  /* Dark background */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: auto;  /* Adjust this as necessary */
+    max-width: 600px;  /* Limits the width if necessary */
+    display: flex;  /* Ensures flex children (like iframe) can fill the space */
+}
+
+iframe {
+    width: calc(100% - 80px); /* 100% minus twice the padding */
+    height: 600px; /* Adjust based on your content */
+    border: none;  /* Removes the default border around iframes */
+}
+
+form h1 {
+    color: #fff;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    background: #40444b;
+    border: none;
+    border-radius: 4px;
+    color: #ddd;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 12px;
+    background-color: #7289da;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #677bc4;
+}
+@media (max-width: 768px) {
+    .form-container {
+        padding: 10px;
+        max-width: 100%;
+    }
+    iframe {
+        width: calc(100% - 20px); /* Adjusting for smaller padding on smaller screens */
+        height: 400px; /* Maybe a shorter height on smaller devices */
+    }
+}
