@@ -69,8 +69,11 @@ try {
         $_SESSION['user_id'] = $existingUser['id'];
     } else {
         $avatarUrl = isset($user->avatar) ? "https://cdn.discordapp.com/avatars/{$user->id}/{$user->avatar}.png" : null;
-        $stmt = $conn->prepare("INSERT INTO users (discord_id, username, email, avatar_url) VALUES (?, ?, ?, ?)");
-        $stmt->execute([$user->id, $user->username, $user->email, $avatarUrl]);
+        $defaultPassword = 'defaultPassword'; // Example default password
+        $hashedPassword = password_hash($defaultPassword, PASSWORD_DEFAULT);
+        $stmt = $conn->prepare("INSERT INTO users (discord_id, username, email, avatar_url, password) VALUES (?, ?, ?, ?, ?)");
+        $stmt->execute([$user->id, $user->username, $user->email, $avatarUrl, $hashedPassword]);
+        
         $_SESSION['user_id'] = $conn->lastInsertId();
     }
 
