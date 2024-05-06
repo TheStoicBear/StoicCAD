@@ -85,7 +85,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   `dept` varchar(100) DEFAULT 'CIV',
   `rank` varchar(100) DEFAULT NULL,
   `badge_number` varchar(50) DEFAULT NULL,
-  `is_admin` tinyint(1) DEFAULT 0,
   PRIMARY KEY (`id`),
   UNIQUE KEY `discord_id` (`discord_id`),
   UNIQUE KEY `email` (`email`)
