@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../db.php';
+require_once '..config/db.php'; // Ensure this file contains your PDO connection logic
 
 if (!isset($_GET['arrest_id']) || !is_numeric($_GET['arrest_id'])) {
     echo "Invalid arrest ID.";
