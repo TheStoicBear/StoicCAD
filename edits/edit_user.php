@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../db.php'; // Ensure this file contains your PDO connection logic
+require_once '..config/db.php'; // Ensure this file contains your PDO connection logic
 
 // Only allow access if the user is an admin
 if (!isset($_SESSION['user_id'])) {
